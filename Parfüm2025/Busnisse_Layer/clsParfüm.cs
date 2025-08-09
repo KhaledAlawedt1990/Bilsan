@@ -22,11 +22,11 @@ namespace Busnisse_Layer
         public string Basisnote { get; set; }
  
         public bool IstVorhanden { get; set; }
-        public bool ZumFlohmarkt { get; set; }
+        public bool InBestellung { get; set; }
 
         private clsParfüm(int parfümNummer, string  marke, string name, string kategorie,
           string duftrichtung, string Basisnote, 
-          bool istVorhande, bool zumFlohmarkt)
+          bool istVorhande, bool InBestellung)
         {
             this.parfümNummer = parfümNummer;
             this.Marke = marke;
@@ -36,7 +36,7 @@ namespace Busnisse_Layer
             this.Basisnote = Basisnote;
          
             this.IstVorhanden = istVorhande;
-            ZumFlohmarkt = zumFlohmarkt;
+            this.InBestellung = InBestellung;
 
             _mode = enMode.update;
         }
@@ -51,7 +51,7 @@ namespace Busnisse_Layer
             this.Basisnote = string.Empty;
            
             this.IstVorhanden = true;
-            this.ZumFlohmarkt = false;
+            this.InBestellung = false;
 
             _mode = enMode.addnew;
         }
@@ -61,13 +61,13 @@ namespace Busnisse_Layer
             string marke = string.Empty; string name = string.Empty; string kategorie = string.Empty;
             string duftrichtung = string.Empty; string Basisnote = string.Empty;
            ; bool IstVorhanden = false;
-            bool ZumFlohmarkt = false;
+            bool InBestellung = false;
 
             if (clsParfümDatenzugriff.Find(parfümNummer, ref marke, ref name, ref kategorie,
-                ref duftrichtung, ref Basisnote, ref IstVorhanden, ref ZumFlohmarkt))
+                ref duftrichtung, ref Basisnote, ref IstVorhanden, ref InBestellung))
             {
                 return new clsParfüm(parfümNummer, marke, name, kategorie, duftrichtung, Basisnote,
-                                     IstVorhanden, ZumFlohmarkt);
+                                     IstVorhanden, InBestellung);
             }
             else
                 return null;
@@ -77,7 +77,7 @@ namespace Busnisse_Layer
         {
             if (clsParfümDatenzugriff.AddNewPerfum(this.parfümNummer, this.Marke, this.Name,
                  this.Kategorie, this.Duftrichtung, this.Basisnote
-                , this.IstVorhanden, this.ZumFlohmarkt))
+                , this.IstVorhanden, this.InBestellung))
             {
                 return true;
             }
@@ -89,7 +89,7 @@ namespace Busnisse_Layer
         {
             return clsParfümDatenzugriff.UpdatePerfum(this.neuParfümNummer, this.parfümNummer, this.Marke, this.Name,
                 this.Kategorie, this.Duftrichtung, this.Basisnote
-                      , this.IstVorhanden, this.ZumFlohmarkt);
+                      , this.IstVorhanden, this.InBestellung);
         }
 
         public static bool Delete(int parfümNummer)

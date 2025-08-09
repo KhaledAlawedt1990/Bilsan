@@ -49,3 +49,12 @@ C:\Users\khale\Desktop\Parfüm2025\Data_Layer\obj\Debug\Data_Layer.csproj.CoreCo
 C:\Users\khale\Desktop\Parfüm2025\Data_Layer\obj\Debug\Data_Layer.csproj.Up2Date
 C:\Users\khale\Desktop\Parfüm2025\Data_Layer\obj\Debug\Data_Layer.dll
 C:\Users\khale\Desktop\Parfüm2025\Data_Layer\obj\Debug\Data_Layer.pdb
+C:\Users\Hamssa\Desktop\Bilsan\Parfüm2025\Data_Layer\bin\Debug\Data_Layer.dll
+C:\Users\Hamssa\Desktop\Bilsan\Parfüm2025\Data_Layer\bin\Debug\Data_Layer.pdb
+C:\Users\Hamssa\Desktop\Bilsan\Parfüm2025\Data_Layer\bin\Debug\clsHilfsMethoden.dll
+C:\Users\Hamssa\Desktop\Bilsan\Parfüm2025\Data_Layer\bin\Debug\clsHilfsMethoden.pdb
+C:\Users\Hamssa\Desktop\Bilsan\Parfüm2025\Data_Layer\obj\Debug\Data_Layer.csproj.AssemblyReference.cache
+C:\Users\Hamssa\Desktop\Bilsan\Parfüm2025\Data_Layer\obj\Debug\Data_Layer.csproj.CoreCompileInputs.cache
+C:\Users\Hamssa\Desktop\Bilsan\Parfüm2025\Data_Layer\obj\Debug\Data_Layer.csproj.Up2Date
+C:\Users\Hamssa\Desktop\Bilsan\Parfüm2025\Data_Layer\obj\Debug\Data_Layer.dll
+C:\Users\Hamssa\Desktop\Bilsan\Parfüm2025\Data_Layer\obj\Debug\Data_Layer.pdb

@@ -84,7 +84,7 @@ namespace Parfüm2025
                 txtBasisnote.Text = _parfüm.Basisnote;
                
                 chbIstVorhanden.Checked = _parfüm.IstVorhanden;
-                chbZumFlohmarkt.Checked = _parfüm.ZumFlohmarkt;
+                chbInBestellung.Checked = _parfüm.InBestellung;
             }
             else
             {
@@ -121,7 +121,7 @@ namespace Parfüm2025
             _parfüm.Duftrichtung = txtDuftrichtung.Text;
             _parfüm.Basisnote = txtBasisnote.Text;
             _parfüm.IstVorhanden = chbIstVorhanden.Checked == true ? true : false;
-            _parfüm.ZumFlohmarkt = chbZumFlohmarkt.Checked == true ? true : false;
+            _parfüm.InBestellung = chbInBestellung.Checked == true ? true : false;
         }
 
         private bool _IstParfümNummerVergeben()

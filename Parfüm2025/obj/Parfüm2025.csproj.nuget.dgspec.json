@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\khale\\Desktop\\Parfüm2025\\Parfüm2025.csproj": {}
+    "C:\\Users\\Hamssa\\Desktop\\Bilsan\\Parfüm2025\\Parfüm2025.csproj": {}
   },
   "projects": {
-    "C:\\Users\\khale\\Desktop\\Parfüm2025\\Busnisse_Layer\\Busnisse_Layer.csproj": {
+    "C:\\Users\\Hamssa\\Desktop\\Bilsan\\Parfüm2025\\Busnisse_Layer\\Busnisse_Layer.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\khale\\Desktop\\Parfüm2025\\Busnisse_Layer\\Busnisse_Layer.csproj",
+        "projectUniqueName": "C:\\Users\\Hamssa\\Desktop\\Bilsan\\Parfüm2025\\Busnisse_Layer\\Busnisse_Layer.csproj",
         "projectName": "Busnisse_Layer",
-        "projectPath": "C:\\Users\\khale\\Desktop\\Parfüm2025\\Busnisse_Layer\\Busnisse_Layer.csproj",
+        "projectPath": "C:\\Users\\Hamssa\\Desktop\\Bilsan\\Parfüm2025\\Busnisse_Layer\\Busnisse_Layer.csproj",
         "UsingMicrosoftNETSdk": false,
         "frameworks": {
           "net48": {
             "projectReferences": {
-              "C:\\Users\\khale\\Desktop\\Parfüm2025\\Data_Layer\\Data_Layer.csproj": {
-                "projectPath": "C:\\Users\\khale\\Desktop\\Parfüm2025\\Data_Layer\\Data_Layer.csproj"
+              "C:\\Users\\Hamssa\\Desktop\\Bilsan\\Parfüm2025\\Data_Layer\\Data_Layer.csproj": {
+                "projectPath": "C:\\Users\\Hamssa\\Desktop\\Bilsan\\Parfüm2025\\Data_Layer\\Data_Layer.csproj"
               }
             }
           }
@@ -24,14 +24,14 @@
         "net48": {}
       }
     },
-    "C:\\Users\\khale\\Desktop\\Parfüm2025\\clsHilfsMethoden\\HilfsMethoden.csproj": {
+    "C:\\Users\\Hamssa\\Desktop\\Bilsan\\Parfüm2025\\clsHilfsMethoden\\HilfsMethoden.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\khale\\Desktop\\Parfüm2025\\clsHilfsMethoden\\HilfsMethoden.csproj",
+        "projectUniqueName": "C:\\Users\\Hamssa\\Desktop\\Bilsan\\Parfüm2025\\clsHilfsMethoden\\HilfsMethoden.csproj",
         "projectName": "clsHilfsMethoden",
-        "projectPath": "C:\\Users\\khale\\Desktop\\Parfüm2025\\clsHilfsMethoden\\HilfsMethoden.csproj",
-        "packagesPath": "C:\\Users\\khale\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\khale\\Desktop\\Parfüm2025\\clsHilfsMethoden\\obj\\",
+        "projectPath": "C:\\Users\\Hamssa\\Desktop\\Bilsan\\Parfüm2025\\clsHilfsMethoden\\HilfsMethoden.csproj",
+        "packagesPath": "C:\\Users\\Hamssa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Hamssa\\Desktop\\Bilsan\\Parfüm2025\\clsHilfsMethoden\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "UsingMicrosoftNETSdk": false,
@@ -39,7 +39,7 @@
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\khale\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Hamssa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -100,17 +100,17 @@
         }
       }
     },
-    "C:\\Users\\khale\\Desktop\\Parfüm2025\\Data_Layer\\Data_Layer.csproj": {
+    "C:\\Users\\Hamssa\\Desktop\\Bilsan\\Parfüm2025\\Data_Layer\\Data_Layer.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\khale\\Desktop\\Parfüm2025\\Data_Layer\\Data_Layer.csproj",
+        "projectUniqueName": "C:\\Users\\Hamssa\\Desktop\\Bilsan\\Parfüm2025\\Data_Layer\\Data_Layer.csproj",
         "projectName": "Data_Layer",
-        "projectPath": "C:\\Users\\khale\\Desktop\\Parfüm2025\\Data_Layer\\Data_Layer.csproj",
+        "projectPath": "C:\\Users\\Hamssa\\Desktop\\Bilsan\\Parfüm2025\\Data_Layer\\Data_Layer.csproj",
         "UsingMicrosoftNETSdk": false,
         "frameworks": {
           "net48": {
             "projectReferences": {
-              "C:\\Users\\khale\\Desktop\\Parfüm2025\\clsHilfsMethoden\\HilfsMethoden.csproj": {
-                "projectPath": "C:\\Users\\khale\\Desktop\\Parfüm2025\\clsHilfsMethoden\\HilfsMethoden.csproj"
+              "C:\\Users\\Hamssa\\Desktop\\Bilsan\\Parfüm2025\\clsHilfsMethoden\\HilfsMethoden.csproj": {
+                "projectPath": "C:\\Users\\Hamssa\\Desktop\\Bilsan\\Parfüm2025\\clsHilfsMethoden\\HilfsMethoden.csproj"
               }
             }
           }
@@ -120,14 +120,14 @@
         "net48": {}
       }
     },
-    "C:\\Users\\khale\\Desktop\\Parfüm2025\\Parfüm2025.csproj": {
+    "C:\\Users\\Hamssa\\Desktop\\Bilsan\\Parfüm2025\\Parfüm2025.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\khale\\Desktop\\Parfüm2025\\Parfüm2025.csproj",
+        "projectUniqueName": "C:\\Users\\Hamssa\\Desktop\\Bilsan\\Parfüm2025\\Parfüm2025.csproj",
         "projectName": "Parfüm2025",
-        "projectPath": "C:\\Users\\khale\\Desktop\\Parfüm2025\\Parfüm2025.csproj",
-        "packagesPath": "C:\\Users\\khale\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\khale\\Desktop\\Parfüm2025\\obj\\",
+        "projectPath": "C:\\Users\\Hamssa\\Desktop\\Bilsan\\Parfüm2025\\Parfüm2025.csproj",
+        "packagesPath": "C:\\Users\\Hamssa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Hamssa\\Desktop\\Bilsan\\Parfüm2025\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "UsingMicrosoftNETSdk": false,
@@ -135,7 +135,7 @@
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\khale\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Hamssa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -149,11 +149,11 @@
         "frameworks": {
           "net48": {
             "projectReferences": {
-              "C:\\Users\\khale\\Desktop\\Parfüm2025\\Busnisse_Layer\\Busnisse_Layer.csproj": {
-                "projectPath": "C:\\Users\\khale\\Desktop\\Parfüm2025\\Busnisse_Layer\\Busnisse_Layer.csproj"
+              "C:\\Users\\Hamssa\\Desktop\\Bilsan\\Parfüm2025\\Busnisse_Layer\\Busnisse_Layer.csproj": {
+                "projectPath": "C:\\Users\\Hamssa\\Desktop\\Bilsan\\Parfüm2025\\Busnisse_Layer\\Busnisse_Layer.csproj"
               },
-              "C:\\Users\\khale\\Desktop\\Parfüm2025\\clsHilfsMethoden\\HilfsMethoden.csproj": {
-                "projectPath": "C:\\Users\\khale\\Desktop\\Parfüm2025\\clsHilfsMethoden\\HilfsMethoden.csproj"
+              "C:\\Users\\Hamssa\\Desktop\\Bilsan\\Parfüm2025\\clsHilfsMethoden\\HilfsMethoden.csproj": {
+                "projectPath": "C:\\Users\\Hamssa\\Desktop\\Bilsan\\Parfüm2025\\clsHilfsMethoden\\HilfsMethoden.csproj"
               }
             }
           }

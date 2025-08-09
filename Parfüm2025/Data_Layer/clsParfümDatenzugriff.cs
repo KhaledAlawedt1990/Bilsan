@@ -23,7 +23,7 @@ namespace Data_Layer
             DataTable dt = new DataTable(); ;
 
             string abfrage = @"Select *
-                                from Parfüm_Kopie ";
+                                from Parfüms ";
 
             using (SqlConnection connection = new SqlConnection(ConnectionString))
             {
@@ -51,7 +51,7 @@ namespace Data_Layer
         {
             DataTable dt = new DataTable(); ;
 
-            string abfrage = @"Select * from Parfüm_Kopie 
+            string abfrage = @"Select * from Parfüms
                               Where Name Like @ParfuemFullTextCatalog OR Freetext(Name, @filterdName) ";
 
             using (SqlConnection connection = new SqlConnection(ConnectionString))
@@ -82,7 +82,7 @@ namespace Data_Layer
         {
             DataTable dt = new DataTable(); ;
 
-            string abfrage = @"Select * from Parfüm_Kopie 
+            string abfrage = @"Select * from Parfüms
                               Where Marke Like @ParfuemFullTextCatalog OR Freetext(Marke, @filterdMarke)";
 
             using (SqlConnection connection = new SqlConnection(ConnectionString))
@@ -115,7 +115,7 @@ namespace Data_Layer
             DataTable dt = new DataTable(); ;
 
             string abfrage = @"
-                              Select * from Parfüm_Kopie where Kategorie Like 'Herrenduft%' 
+                              Select * from Parfüms where Kategorie Like 'Herrenduft%' 
                                 ";
 
             using (SqlConnection connection = new SqlConnection(ConnectionString))
@@ -146,7 +146,7 @@ namespace Data_Layer
             DataTable dt = new DataTable(); ;
 
             string abfrage = @"Select *
-                             from Parfüm_Kopie  where Kategorie Like 'Damenduft%'
+                             from Parfüms  where Kategorie Like 'Damenduft%'
                                  ";
 
             using (SqlConnection connection = new SqlConnection(ConnectionString))
@@ -173,12 +173,12 @@ namespace Data_Layer
         }
 
         public static bool AddNewPerfum(int parfümNummer, string marke, string name,string kategorie,
-              string duftrichtung, string Basisnote, bool IstVorhanden, bool ZumFlohmarkt)
+              string duftrichtung, string Basisnote, bool IstVorhanden, bool InBestellung)
         {
             int rowAffected = 0;
 
-            string abfrage = @"Insert into Parfüm_Kopie (parfümNummer,Marke, Name, Kategorie, Duftrichtung, Basisnote,IstVorhanden,ZumFlohmarkt)
-                                          Values(@parfümNummer, @marke, @name, @kategorie, @duftrichtung, @Basisnote, @IstVorhanden, @ZumFlohmarkt)";
+            string abfrage = @"Insert into Parfüms (parfümNummer,Marke, Name, Kategorie, Duftrichtung, Basisnote,IstVorhanden,InBestellung)
+                                          Values(@parfümNummer, @marke, @name, @kategorie, @duftrichtung, @Basisnote, @IstVorhanden, @InBestellung)";
                               
                       
             using(SqlConnection connection = new SqlConnection(ConnectionString))
@@ -204,7 +204,7 @@ namespace Data_Layer
 
 
                         command.Parameters.AddWithValue("@IstVorhanden", IstVorhanden);
-                        command.Parameters.AddWithValue("@ZumFlohmarkt", ZumFlohmarkt);
+                        command.Parameters.AddWithValue("@InBestellung", InBestellung);
                         connection.Open();
 
                         rowAffected = command.ExecuteNonQuery();
@@ -219,11 +219,11 @@ namespace Data_Layer
         }
 
         public static bool UpdatePerfum(int neuParfümNummer, int parfümNummer, string marke, string name, string kategorie,
-              string duftrichtung, string Basisnote, bool IstVorhanden, bool ZumFlohmarkt)
+              string duftrichtung, string Basisnote, bool IstVorhanden, bool InBestellung)
         {
             int rowAffected = 0;
 
-            string abfrage = @"Update Parfüm_Kopie
+            string abfrage = @"Update Parfüms
                                         Set  parfümNummer = @neuParfümNummer,
                                              Marke        = @marke,
                                              Name         = @name,
@@ -232,7 +232,7 @@ namespace Data_Layer
                                              Basisnote = @Basisnote,
                                              
                                              IstVorhanden = @IstVorhanden,
-                                             ZumFlohmarkt = @ZumFlohmarkt
+                                             InBestellung = @InBestellung
                                        Where parfümNummer = @parfümNummer";
 
 
@@ -264,7 +264,7 @@ namespace Data_Layer
                        
 
                         command.Parameters.AddWithValue("@IstVorhanden", IstVorhanden);
-                        command.Parameters.AddWithValue("@ZumFlohmarkt", ZumFlohmarkt);
+                        command.Parameters.AddWithValue("@InBestellung", InBestellung);
                         connection.Open();
 
                         rowAffected = command.ExecuteNonQuery();
@@ -280,7 +280,7 @@ namespace Data_Layer
         public static bool Delete(int parfümNummer)
         {
             int rowAffected = 0;
-            string abfrage = @"Delete From Parfüm_Kopie Where parfümNummer = @parfümNummer";
+            string abfrage = @"Delete From Parfüms Where parfümNummer = @parfümNummer";
             using (SqlConnection connection = new SqlConnection(ConnectionString))
             {
                 try
@@ -304,10 +304,10 @@ namespace Data_Layer
 
         public static bool Find(int parfümNummer, ref string marke, ref string name,
               ref string kategorie, ref string duftrichtung, ref string Basisnote,
-              ref bool IstVorhanden, ref bool ZumFlohmarkt)
+              ref bool IstVorhanden, ref bool InBestellung)
         {
             bool isfound = false;
-            string abfrage = @"Select * From Parfüm_Kopie Where parfümNummer = @parfümNummer";
+            string abfrage = @"Select * From Parfüms Where parfümNummer = @parfümNummer";
 
             using(SqlConnection connection = new SqlConnection(ConnectionString))
             {
@@ -330,7 +330,7 @@ namespace Data_Layer
                                 duftrichtung = (string)reader["Duftrichtung"].ToString();
                                 Basisnote = (string)reader["Basisnote"].ToString();
                                 IstVorhanden = (bool)reader["IstVorhanden"];
-                                ZumFlohmarkt = reader["ZumFlohmarkt"] != DBNull.Value ? (bool)reader["ZumFlohmarkt"] : false;
+                                InBestellung = reader["InBestellung"] != DBNull.Value ? (bool)reader["InBestellung"] : false;
                             }
                         }
                     }
@@ -346,7 +346,7 @@ namespace Data_Layer
         public static bool _IstParfümNummerVergeben(int parfümNummer)
         {
             int rowAffected = 0;
-            string abfrage = @"Select Find = 1 From Parfüm_Kopie  Where parfümNummer = @parfümNummer";
+            string abfrage = @"Select Find = 1 From Parfüms  Where parfümNummer = @parfümNummer";
 
             using(SqlConnection connection = new SqlConnection(ConnectionString))
             {
