@@ -23,7 +23,7 @@ namespace Data_Layer
             DataTable dt = new DataTable(); ;
 
             string abfrage = @"Select *
-                                from Parfüms ";
+                                from Parfüms";
 
             using (SqlConnection connection = new SqlConnection(ConnectionString))
             {

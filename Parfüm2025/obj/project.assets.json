@@ -4493,17 +4493,17 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Hamssa\\.nuget\\packages\\": {},
+    "C:\\Users\\khale\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Hamssa\\Desktop\\Bilsan\\Parfüm2025\\Parfüm2025.csproj",
+      "projectUniqueName": "C:\\Bilsan\\Parfüm2025\\Parfüm2025.csproj",
       "projectName": "Parfüm2025",
-      "projectPath": "C:\\Users\\Hamssa\\Desktop\\Bilsan\\Parfüm2025\\Parfüm2025.csproj",
-      "packagesPath": "C:\\Users\\Hamssa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Hamssa\\Desktop\\Bilsan\\Parfüm2025\\obj\\",
+      "projectPath": "C:\\Bilsan\\Parfüm2025\\Parfüm2025.csproj",
+      "packagesPath": "C:\\Users\\khale\\.nuget\\packages\\",
+      "outputPath": "C:\\Bilsan\\Parfüm2025\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "UsingMicrosoftNETSdk": false,
@@ -4511,7 +4511,7 @@
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Hamssa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\khale\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -4525,11 +4525,11 @@
       "frameworks": {
         "net48": {
           "projectReferences": {
-            "C:\\Users\\Hamssa\\Desktop\\Bilsan\\Parfüm2025\\Busnisse_Layer\\Busnisse_Layer.csproj": {
-              "projectPath": "C:\\Users\\Hamssa\\Desktop\\Bilsan\\Parfüm2025\\Busnisse_Layer\\Busnisse_Layer.csproj"
+            "C:\\Bilsan\\Parfüm2025\\Busnisse_Layer\\Busnisse_Layer.csproj": {
+              "projectPath": "C:\\Bilsan\\Parfüm2025\\Busnisse_Layer\\Busnisse_Layer.csproj"
             },
-            "C:\\Users\\Hamssa\\Desktop\\Bilsan\\Parfüm2025\\clsHilfsMethoden\\HilfsMethoden.csproj": {
-              "projectPath": "C:\\Users\\Hamssa\\Desktop\\Bilsan\\Parfüm2025\\clsHilfsMethoden\\HilfsMethoden.csproj"
+            "C:\\Bilsan\\Parfüm2025\\clsHilfsMethoden\\HilfsMethoden.csproj": {
+              "projectPath": "C:\\Bilsan\\Parfüm2025\\clsHilfsMethoden\\HilfsMethoden.csproj"
             }
           }
         }

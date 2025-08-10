@@ -58,3 +58,12 @@ C:\Users\Hamssa\Desktop\Bilsan\Parfüm2025\Data_Layer\obj\Debug\Data_Layer.cspro
 C:\Users\Hamssa\Desktop\Bilsan\Parfüm2025\Data_Layer\obj\Debug\Data_Layer.csproj.Up2Date
 C:\Users\Hamssa\Desktop\Bilsan\Parfüm2025\Data_Layer\obj\Debug\Data_Layer.dll
 C:\Users\Hamssa\Desktop\Bilsan\Parfüm2025\Data_Layer\obj\Debug\Data_Layer.pdb
+C:\Bilsan\Parfüm2025\Data_Layer\bin\Debug\Data_Layer.dll
+C:\Bilsan\Parfüm2025\Data_Layer\bin\Debug\Data_Layer.pdb
+C:\Bilsan\Parfüm2025\Data_Layer\bin\Debug\clsHilfsMethoden.dll
+C:\Bilsan\Parfüm2025\Data_Layer\bin\Debug\clsHilfsMethoden.pdb
+C:\Bilsan\Parfüm2025\Data_Layer\obj\Debug\Data_Layer.csproj.AssemblyReference.cache
+C:\Bilsan\Parfüm2025\Data_Layer\obj\Debug\Data_Layer.csproj.CoreCompileInputs.cache
+C:\Bilsan\Parfüm2025\Data_Layer\obj\Debug\Data_Layer.csproj.Up2Date
+C:\Bilsan\Parfüm2025\Data_Layer\obj\Debug\Data_Layer.dll
+C:\Bilsan\Parfüm2025\Data_Layer\obj\Debug\Data_Layer.pdb
