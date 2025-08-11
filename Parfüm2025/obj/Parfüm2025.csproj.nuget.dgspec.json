@@ -30,7 +30,7 @@
         "projectUniqueName": "C:\\Bilsan\\Parfüm2025\\clsHilfsMethoden\\HilfsMethoden.csproj",
         "projectName": "clsHilfsMethoden",
         "projectPath": "C:\\Bilsan\\Parfüm2025\\clsHilfsMethoden\\HilfsMethoden.csproj",
-        "packagesPath": "C:\\Users\\khale\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\Hamssa\\.nuget\\packages\\",
         "outputPath": "C:\\Bilsan\\Parfüm2025\\clsHilfsMethoden\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
@@ -39,7 +39,7 @@
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\khale\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Hamssa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -126,7 +126,7 @@
         "projectUniqueName": "C:\\Bilsan\\Parfüm2025\\Parfüm2025.csproj",
         "projectName": "Parfüm2025",
         "projectPath": "C:\\Bilsan\\Parfüm2025\\Parfüm2025.csproj",
-        "packagesPath": "C:\\Users\\khale\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\Hamssa\\.nuget\\packages\\",
         "outputPath": "C:\\Bilsan\\Parfüm2025\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
@@ -135,7 +135,7 @@
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\khale\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Hamssa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
